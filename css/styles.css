@@ -542,7 +542,7 @@ footer .container-f .mail-input .mail-form .mail-label .mail-input{
   color: #ffffff;
 }
 
-footer .container-f .mail-input .mail-form .subscribe-button{
+.subscribe-button{
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -563,7 +563,7 @@ footer .container-f .mail-input .mail-form .subscribe-button{
   border-radius: 4px;
 }
 
-footer .container-f .mail-input .mail-form .subscribe-button .icon-send{
+.icon-icon-send{
   margin-left: 16px;
 }
 
