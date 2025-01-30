@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body >
+    <!--Top line başlangıcı-->
+    <header class="container-bir">
+      <div class="container">
+      <nav class="header">
+        <a href="#" class="logo">Web<span class="logo-renk-iki">Studio</span></a>
+      
+        <ul class="menu">
+          <li><a href="./index.html" class="menu-bir active">Studio</a></li>
+          <li><a href="" class="menu-bir">Portfolio</a></li>
+          <li><a href="" class="menu-bir">Contacts</a></li>
+        </ul>
+      </nav>
+
+      <address class="info">
+        <ul class="info-list">
+          <li><a href="" class="info-bir">info@devstudio.com</a></li>
+          <li><a href="" class="info-bir">+11 (000) 111-11-11</a></li>
+        </ul>
+      </address>
+    </div>
+    </header>
+    <!--Top line bitti-->
+
+    <!--main bölümü ve en üst başlık başlangıcı-->
+    <main>
+      <section class="hero-image ">
+        <div class="container">
+        <h1 class="baslik-bir">
+          Effective Solutions<br />
+          for Your Business
+        </h1>
+        <button class="button">Order Service</button>
+      </div>
+      </section>
+      <!--üst başlık bitti-->
+
+      <!--açıklamaların olduğu bölüm başlangıcı-->
+      <section class="aciklamalar ">
+        <div class="container">
+        <h2 class="visually-hidden">Deneme</h2>
+        <ul class="aciklama-list">
+          <li class="aciklamalar-li">
+            <div class="icons">
+              <svg class="icon" width="64" height="64" ><use href="./images/icons.svg#icon-antenna"></use></svg>
+            </div>
+            <h3 class="ozellikler">Strategy</h3>
+            
+
+            <p class="aciklama">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li class="aciklamalar-li">
+            <div class="icons">
+              <svg class="icon" width="64" height="64"><use href="./images/icons.svg#icon-clock"></use></svg>
+            </div>
+            <h3 class="ozellikler">Punctuality</h3>
+            
+            <p class="aciklama">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li class="aciklamalar-li">
+            <div class="icons">
+              <svg class="icon" width="64" height="64"><use href="./images/icons.svg#icon-diagram"></use></svg>
+            </div>
+            <h3 class="ozellikler">Diligence</h3>
+            <p class="aciklama">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
+          <li class="aciklamalar-li">
+            <div class="icons">
+              <svg class="icon icon-astronaut" width="64" height="64"><use href="./images/icons.svg#icon-astronaut"></use></svg>
+            </div>
+            <h3 class="ozellikler">Technologies</h3>
+            <p class="aciklama">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+      </div>
+      </section>
+
+      <!--açıklamaların olduğu bölüm bitti-->
+
+      <!--Our Team başlangıcı-->
+      <section class="takim">
+        <div class="container">
+        <h2 class="takim-baslik">Our Team</h2>
+
+        <ul class="team-members">
+          <li class="team-bir">
+            <img
+              src="images/team_card_1.jpg"
+              alt="Mark Guerrero Product Designer"
+              width="264"
+            />
+            <div class="takim-elemanlari">
+            <h3 class="member-name">Mark Guerrero</h3>
+            <p class="kariyer">Product Designer</p>
+            
+              <ul class="sosyal-medya">
+                <li class="sosyal-link">
+                  <a href="#" class="medya-link">
+                    <svg class="medya-icon" width="16" height="16"><use href="./images/icons.svg#icon-instagram"></use></svg>
+                  </a>
+                </li>
+                <li class="sosyal-link">
+                  <a href="#" class="medya-link">
+                    <svg class="medya-icon" width="16" height="16"><use href="./images/icons.svg#icon-twitter"></use></svg>
+                  </a>
+                </li>
+                <li class="sosyal-link">
+                  <a href="#" class="medya-link">
+                    <svg class="medya-icon" width="16" height="16"><use href="./images/icons.svg#icon-facebook"></use></svg>
+                  </a>
+                </li>
+                <li class="sosyal-link">
+                  <a href="#" class="medya-link">
+                    <svg class="medya-icon" width="16" height="16"><use href="./images/icons.svg#icon-linkedin"></use></svg>
+                  </a>
+                </li>
+              </ul>
+            
+          </div>
+          </li>
+          <li class="team-bir">
+            <img
+              src="images/team_card_2.jpg"
+              alt="Tom Ford Frontend Developer"
+              width="264"
+            />
+            <div class="takim-elemanlari">
+            <h3 class="member-name">Tom Ford</h3>
+            <p class="kariyer">Frontend Developer</p>
+            <ul class="sosyal-medya">
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-instagram"></use></svg>
+                </a>
+              </li>
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-facebook"></use></svg>
+                </a>
+              </li>
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-linkedin"></use></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          </li>
+          <li class="team-bir">
+            <img
+              src="images/team_card_3.jpg"
+              alt="Camila Garcia Marketing"
+              width="264"
+            />
+            <div class="takim-elemanlari">
+            <h3 class="member-name">Camila Garcia</h3>
+            <p class="kariyer">Marketing</p>
+            <ul class="sosyal-medya">
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-instagram"></use></svg>
+                </a>
+              </li>
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-facebook"></use></svg>
+                </a>
+              </li>
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-linkedin"></use></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          </li>
+          <li class="team-bir">
+            <img
+              src="images/team_card_4.jpg"
+              alt="Daniel Wilson UI Designer"
+              width="264"
+            />
+            <div class="takim-elemanlari">
+            <h3 class="member-name">Daniel Wilson</h3>
+            <p class="kariyer">UI Designer</p>
+            <ul class="sosyal-medya">
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-instagram"></use></svg>
+                </a>
+              </li>
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-facebook"></use></svg>
+                </a>
+              </li>
+              <li class="sosyal-link">
+                <a href="#" class="medya-link">
+                  <svg class="medya-icon"><use xlink:href="./images/icons.svg#icon-linkedin"></use></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          </li>
+        </ul>
+      </div>
+      </section>
+      <!--Our Team bölümü bitişi-->
+
+      <!--Portfolyo Baslangıcı-->
+      <section class="portfolyo">
+        <div class="container">
+        <h2 class="portfolyo-baslik">Our Portfolio</h2>
+
+        <ul class="portfolyo-liste">
+          <li class="portfolyo-elemanlar">
+            <div class="gizli-div">
+            <img src="./images/portfolyo-1.jpg" alt="banking app" width="360" />
+            <p class="gizli-aciklama">14 Stylish and User-Friendly App Design Concepts · Task
+              Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+              · Cloud Storage App</p>
+            </div>
+            <div class="port-uygulama">
+            <h3 class="uygulamalar">Banking App</h3>
+            <p class="uygulama-aciklama">App</p>
+          </div>
+          </li>
+          <li class="portfolyo-elemanlar">
+            <div class="gizli-div">
+            <img
+              src="./images/portfolyo-2.jpg"
+              alt="Cashless Payment"
+              width="360"
+            />
+            <p class="gizli-aciklama">14 Stylish and User-Friendly App Design Concepts · Task
+              Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+              · Cloud Storage App</p>
+            </div>
+            <div class="port-uygulama">
+            <h3 class="uygulamalar">Cashless Payment</h3>
+            <p class="uygulama-aciklama">Marketing</p>
+          </div>
+          </li>
+          <li class="portfolyo-elemanlar">
+            <div class="gizli-div">
+            <img
+              src="./images/portfolyo-3.jpg"
+              alt="Meditation App"
+              width="360"
+            />
+            <p class="gizli-aciklama">14 Stylish and User-Friendly App Design Concepts · Task
+              Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+              · Cloud Storage App</p>
+          </div>
+            <div class="port-uygulama"> 
+            <h3 class="uygulamalar">Meditation App</h3>
+            <p class="uygulama-aciklama">App</p>
+            </div>
+          </li>
+
+          <li class="portfolyo-elemanlar">
+            <div class="gizli-div">
+            <img
+              src="./images/portfolyo-4.jpg"
+              alt="Taxi Service"
+              width="360"
+            />
+            <p class="gizli-aciklama">14 Stylish and User-Friendly App Design Concepts · Task
+              Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+              · Cloud Storage App</p>
+          </div>
+            <div class="port-uygulama">
+            <h3 class="uygulamalar">Taxi Service</h3>
+            <p class="uygulama-aciklama">Marketing</p>
+          </div>
+          </li>
+          <li class="portfolyo-elemanlar">
+            <div class="gizli-div">
+            <img
+              src="./images/portfolyo-5.jpg"
+              alt="Screen Illustrations"
+              width="360"
+            />
+            <p class="gizli-aciklama">14 Stylish and User-Friendly App Design Concepts · Task
+              Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+              · Cloud Storage App</p>
+          </div>
+            <div class="port-uygulama">
+            <h3 class="uygulamalar">Screen Illustrations</h3>
+            <p class="uygulama-aciklama">Design</p>
+          </div>
+          </li>
+          <li class="portfolyo-elemanlar">
+            <div class="gizli-div">
+            <img
+              src="./images/portfolyo-6.jpg"
+              alt="Online Courses"
+              width="360"
+            />
+            <p class="gizli-aciklama">14 Stylish and User-Friendly App Design Concepts · Task
+              Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+              · Cloud Storage App</p>
+          </div>
+            <div class="port-uygulama">
+            <h3 class="uygulamalar">Online Courses</h3>
+            <p class="uygulama-aciklama">Marketing</p>
+          </div>
+          </li>
+        </ul>
+      </div>
+      </section>
+      <!--portfolyo bitisi-->
+    </main>
+
+    <!--Sitenin son bölümü-->
+
+    <footer class="bitis">
+      <div class="container">
+        <div class="footer-div">
+      <a href="#" class="logo footer-logo" >Web<span class="footer-logo-renk-iki">Studio</span></a>
+      <p class="footer-info">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
+    </div>
+      
+    
+    <div class="footer-medya">
+      <p class="footer-sosyal">Social media</p>
+      <ul class="footer-sosyal-medya">
+        <li class="footer-sosyal-link">
+          <a href="#" class="footer-medya-link">
+            <svg class="footer-medya-icon" width="24" height="24"><use href="./images/icons.svg#icon-instagram"></use></svg>
+          </a>
+        </li>
+        <li class="footer-sosyal-link">
+          <a href="#" class="footer-medya-link">
+            <svg class="footer-medya-icon" width="24" height="24"><use href="./images/icons.svg#icon-twitter"></use></svg>
+          </a>
+        </li>
+        <li class="footer-sosyal-link">
+          <a href="#" class="footer-medya-link">
+            <svg class="footer-medya-icon" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg>
+          </a>
+        </li>
+        <li class="footer-sosyal-link">
+          <a href="#" class="footer-medya-link">
+            <svg class="footer-medya-icon" width="24" height="24"><use href="./images/icons.svg#icon-linkedin"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+     </div>
+
+  
+  
+
+
+    </footer>
+    <div class="modal-window">
+      <div class="modal-container">
+          <button type="button" class="modal-container-button">
+              <svg class="icon-close" width="8" height="8">
+                  <use href="./images/icons.svg#icon-close" width="8" height="8"></use>
+              </svg>
+          </button>
+          <p class="modal-container-p">Leave your contacts and we will call you back</p>
+          <form class="modal-container-form">
+              <div class="form-div">
+                  <label for="user-name" class="form-label">Name</label>
+                  <div class="form-icon">
+                      <input type="text" id="user-name" name="user-name" class="form-icon-input">
+                      <svg class="icon-svg" width="18" height="24">
+                          <use href="./images/icons.svg#icon-person"></use>
+                      </svg>
+                  </div>
+              </div>
+              <div class="form-div">
+                  <label for="user-phone" class="form-label">Phone</label>
+                  <div class="form-icon">
+                      <input type="text" id="user-phone" name="user-phone" class="form-icon-input">
+                      <svg class="icon-svg"  width="18" height="24">
+                          <use href="./images/icons.svg#icon-phone"></use>
+                      </svg>
+                  </div>
+              </div>
+              <div class="form-div">
+                  <label for="user-mail" class="form-label">Email</label>
+                  <div class="form-icon">
+                      <input type="text" id="user-mail" name="user-mail" class="form-icon-input">
+                      <svg class="icon-svg"  width="18" height="24">
+                          <use href="./images/icons.svg#icon-email"></use>
+                      </svg>
+                  </div>
+              </div>
+              <div class="comment-div">
+                  <label for="user-comment" class="form-label">Comment</label>
+                  <textarea name="user-comment" id="user-comment" placeholder="Text input" class="text-form"></textarea>
+              </div>
+              <div class="check-div">
+                  <input type="checkbox" id="user-privacy" value="true" name="user-privacy" class="visually-hidden">
+                  <label for="user-privacy" class="check-label">I accept the terms and conditions of the
+                      <span class="privacy-policy-box">
+                          <svg class="icon-checkmark" width="10" height="8">
+                              <use href="./images/icons.svg#icon-checkmark"></use>
+                          </svg>
+                      </span>
+                      <a href="" class="privacy-policy-connect">Privacy Policy</a>
+                  </label>
+              </div>
+              <button class="form-button">Send</button>
+          </form>
+      </div>
+  </div>
+    
+    
+    <!--sitenin bitişi-->
+  </body>
+</html>
